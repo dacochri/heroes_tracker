@@ -1,7 +1,40 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+# Heroes
+Hero.create(name: 'Sgt. Hammer', hero_type: 'specialist')
+Hero.create(name: 'Abathur', hero_type: 'specialist')
+Hero.create(name: 'Gazlowe', hero_type: 'specialist')
+Hero.create(name: 'Nazeebo', hero_type: 'specialist')
+Hero.create(name: 'Tyrande', hero_type: 'support')
+Hero.create(name: 'Tassadar', hero_type: 'support')
+Hero.create(name: 'Malfurion', hero_type: 'support')
+Hero.create(name: 'Uther', hero_type: 'support')
+Hero.create(name: 'Zeratul', hero_type: 'assassin')
+Hero.create(name: 'Raynor', hero_type: 'assassin')
+Hero.create(name: 'Illidan', hero_type: 'Assassin')
+Hero.create(name: 'Valla', hero_type: 'assassin')
+Hero.create(name: 'Falstad', hero_type: 'assassin')
+Hero.create(name: 'Nova', hero_type: 'assassin')
+Hero.create(name: 'Kerrigan', hero_type: 'assassin')
+Hero.create(name: 'Muradin', hero_type: 'warrior')
+Hero.create(name: 'Sonya', hero_type: 'warrior')
+Hero.create(name: 'E.T.C.', hero_type: 'warrior')
+Hero.create(name: 'Tyrael', hero_type: 'warrior')
+Hero.create(name: 'Diablo', hero_type: 'warrior')
+Hero.create(name: 'Arthas', hero_type: 'warrior')
+Hero.create(name: 'Stitches', hero_type: 'warrior')
+Hero.create(name: 'Tychus', hero_type: 'assassin')
+Hero.create(name: 'Li Li', hero_type: 'support')
+Hero.create(name: 'Brightwing', hero_type: 'support')
+Hero.create(name: 'Murky', hero_type: 'specialist')
+Hero.create(name: 'Zagara', hero_type: 'specialist')
+Hero.create(name: 'Rehgar', hero_type: 'support')
+Hero.create(name: 'Chen', hero_type: 'warrior')
+Hero.create(name: 'Azmodan', hero_type: 'specialist')
+Hero.create(name: 'Anub\'arak', hero_type: 'warrior')
+Hero.create(name: 'Jaina Proudmoore', hero_type: 'assassin')
+Hero.create(name: 'Thrall', hero_type: 'assassin')
+Hero.create(name: 'The Lost Vikings', hero_type: 'specialist')
+Hero.create(name: 'Sylvanas', hero_type: 'specialist')
+Hero.create(name: 'Kael\'thas', hero_type: 'assassin')
+Hero.create(name: 'Johanna', hero_type: 'warrior')
+
+# Picks
